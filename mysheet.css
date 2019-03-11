@@ -1,0 +1,78 @@
+body{
+  background-color: lightgray;
+  text-align: center;
+}
+h1{
+  font-family: Luminari, fantasy;
+}
+h3{
+  font-family: OCR A Std, monospace;
+}
+.feature{
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+
+}
+.feature img{
+  width: 80px;
+  height: 80px;
+  margin-top: -50px;
+}
+.para1,.para2,.para3{
+  margin-left: 210px;
+  margin-right: 210px;
+  font-family: Bradley Hand, cursive;
+}
+.para1-hidden p{
+  color: #fe6993;
+}
+.para2-hidden p{
+  color: #fe6993;
+}
+.para3-hidden p{
+  color: #fe6993;
+}
+.para1 span {
+  text-decoration:none;
+}
+.para1 span:hover{
+  background-color: lightgray;
+  text-decoration:underline;
+}
+
+.para1:hover .para1-hidden{
+  display:block;
+}
+.para1-hidden{
+  display:none;
+}
+.para2 span {
+  text-decoration:none;
+}
+.para2 span:hover{
+  background-color: lightgray;
+  text-decoration:underline;
+}
+
+.para2:hover .para2-hidden{
+  display:block;
+}
+.para2-hidden{
+  display:none;
+}
+.para3 span {
+  text-decoration:none;
+}
+.para3 span:hover{
+  background-color: lightgray;
+  text-decoration:underline;
+}
+
+.para3:hover .para3-hidden{
+  display:block;
+}
+.para3-hidden{
+  display:none;
+}
